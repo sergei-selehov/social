@@ -1,5 +1,4 @@
-@if($_SERVER['PHP_SELF'] != '/index.php')
-    <!-- Footer -->
+<!-- Footer -->
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -61,4 +60,3 @@
             <p>Thunder Team © 2016. All rights reserved</p>
         </div>
     </footer>
-@endif

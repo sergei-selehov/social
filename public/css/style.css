@@ -422,8 +422,8 @@ textarea{
   ==================================================*/
 
 #banner{
-	background: url("http://placehold.it/1920x900") fixed no-repeat;
-  background-position: center;
+	background: url("../images/bg/bg-1.jpg") fixed no-repeat;
+    background-position: center;
 	background-size: cover;
 	width: 100%;
 	min-height: 550px;

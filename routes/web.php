@@ -11,10 +11,11 @@
 |
 */
 
-Route::get('/index-register', function () {
-    return view('frontend/index-register');
-});
-
 Auth::routes();
 
-Route::get('/', 'HomeController@index');
+Route::get('/', function () {
+    return redirect('/feed');
+});
+
+Route::get('/feed', 'HomeController@index');
+
